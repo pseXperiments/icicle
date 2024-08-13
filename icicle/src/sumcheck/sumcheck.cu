@@ -2,6 +2,8 @@
 
 #define SHMEM_SIZE 64
 #define MAX_SHMEM_LOG_SIZE 6
+#define FIELD_ID BN254
+#define CURVE_ID BN254
 
 #include "../ntt/kernel_ntt.cu"
 // static inline __device__ uint32_t bit_rev(uint32_t num, uint32_t log_size) { return __brev(num) >> (32 - log_size); }
